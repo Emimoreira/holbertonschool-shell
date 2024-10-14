@@ -1,2 +1,2 @@
 #!/bin/bash
-(stat -c '%U' hello) guillaume chown reference=hello vincent
+guillaume(stat -c '%U' hello) chown reference=hello vincent
