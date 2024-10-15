@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -p folder1 folder2/.hidden && count=$(find . -type d ! -path . ! -path .. | wc -l) && echo $count && rm -rf folder1 folder2
+count=$(find . -type d ! -path . ! -path .. | wc -l) echo $count
