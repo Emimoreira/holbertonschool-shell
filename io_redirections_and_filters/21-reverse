@@ -1,2 +1,2 @@
 #!/bin/bash
-read input; echo "${input: -1}${input:0:${#input}-1}" | rev
+read input && echo "$input" | rev
