@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -rf ls -la > ls_cwd_state
+echo cp-f  ls -la > ls_cwd_state
