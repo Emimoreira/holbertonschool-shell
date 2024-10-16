@@ -1,2 +1,2 @@
 #!/bin/bash
-if [[ -z "$POWER" || -z "$DIVIDE" ]]; then
+echo $(($POWER/DIVIDE))
